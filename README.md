@@ -19,7 +19,7 @@ The third line is the css selector used to find elements
 
 The fourth line is the path to chromedriver.exe
 
-th fifth line is how long to wait between clicks, in seconds and must be a number
+The fifth line is how long to wait between clicks, in seconds and must be a number
 
 The sixth line is the maximum nunber of clicks per website and must be an integer
 
@@ -91,6 +91,8 @@ used when brwoser fails to start, when browser fails to open website, or for an 
 
 ### !!!?
 file i/o error
+
+does not interfere with program execution
 
 used when program can't create log file
 
