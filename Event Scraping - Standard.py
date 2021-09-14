@@ -119,7 +119,7 @@ def scrape_recursive(name, website, css_selector, log_file, chrome_path, wait_ti
             except Exception as e2:
                 _lost_file(e)
             browser.back()
-            _find_links_and_click()
+            _find_links_and_click(recursions - 1)
         if len(links) > link_index:
             url_to_current_link[browser.current_url] += 1
             try:
